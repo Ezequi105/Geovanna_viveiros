@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Geovanna Viveiros - Advogada</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="home">
+    <h1>Geovanna Viveiros</h1>
+    <p>Advogada Especializada em Direito Civil e Trabalhista</p>
+  </header>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#areas">Áreas Atuadas</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <!-- Slideshow -->
+  <div class="slideshow-container">
+    
+    <div class="slide fade">
+      <img src="https://images.unsplash.com/photo-1555374018-13a8994ab246?auto=format&fit=crop&w=1350&q=80" alt="Imagem 2">
+      <div class="slide-caption">Experiência em Direito Trabalhista</div>
+    </div>
+    <div class="slide fade">
+      <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1350&q=80" alt="Imagem 3">
+      <div class="slide-caption">Consultoria jurídica com excelência</div>
+    </div>
+  </div>
+
+ 
+  <!-- Sobre -->
+<section class="profile" id="sobre">
+  <img src="/img/geova.jpg" alt="Foto da advogada" />
+  <div class="info">
+    <h2>Dra. Geovanna Viveiros</h2>
+    <h2>Sobre Mim</h2>
+<p>
+  Sou a Dra. Geovanna Viveiros, advogada com mais de 5 anos de experiência, atuando com dedicação nas áreas de Direito Civil, Trabalhista e de Família.
+  Meu compromisso é oferecer um atendimento personalizado, humano e ético, priorizando sempre a escuta atenta e soluções eficazes para meus clientes.
+</p>
+<p>
+  Ao longo da minha trajetória, venho auxiliando pessoas e empresas a resolverem conflitos de forma clara, segura e eficiente. Acredito que o Direito deve estar a serviço da justiça e da empatia, buscando não apenas resultados, mas também acolhimento e orientação durante todo o processo.
+</p>
+<p>
+  Estou pronta para te ajudar com responsabilidade e excelência. Seja bem-vindo(a)!
+</p>
+
+  </div>
+</section>
+
+<!-- Botão WhatsApp -->
+<a
+href="https://wa.me/5532984544755?text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20jurídicos."
+class="whatsapp-float"
+target="_blank"
+title="Fale conosco pelo WhatsApp"
+>
+<i class="fab fa-whatsapp"></i>
+</a>
+
+
+
+  <!-- Contato -->
+  <section class="contact" id="contato">
+    <h2>Contato</h2>
+    <p><i class="fas fa-phone"></i> (32) 98454-4755</p>
+    <p><i class="fas fa-envelope"></i> geovanna@advocacia.com</p>
+    <p><i class="fas fa-map-marker-alt"></i> Rua Milton bandeiras, sala 2 - Viçosa, MG</p>
+    <p><i class="fab fa-instagram"></i> @geovanna.adv</p>
+  </section>
+
+  <!-- Áreas de atuação -->
+  <section class="services" id="areas">
+    <h2>Áreas de Atuação</h2>
+    <p><i class="fas fa-gavel"></i> Direito Civil</p>
+    <p><i class="fas fa-briefcase"></i> Direito do Trabalho</p>
+    <p><i class="fas fa-user-shield"></i> Direito de Família</p>
+    <p><i class="fas fa-file-contract"></i> Contratos e Assessoria Jurídica</p>
+  </section>
+
+
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Geovanna Viveiros - Todos os direitos reservados</p>
+  </footer>
+
+  <!-- Slideshow Script -->
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      const slides = document.getElementsByClassName("slide");
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 4000);
+    }
+  </script>
+
+
+</a>
+
+
+</body>
+</html>
